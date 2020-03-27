@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+
+        <TextView
+            android:text="Enter Card Balance($)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Enter Yearly Interest Rate(%)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Enter Maximum Payment($)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Final Card Balance($)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Months Remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Interest Paid will be($)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:layout_column="1" />
+
+        <EditText
+            android:width="600px"
+            android:background="@color/colorWhite"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPUTE"
+            android:id="@+id/compute"
+            android:layout_column="1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:text="CLEAR"
+            android:layout_column="2" />
+    </TableRow>
+
+    <!-- Content below header and above footer -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cp1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/copyright"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/cp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cp1"
+            android:text="  Mir Brothers"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+</TableLayout>
